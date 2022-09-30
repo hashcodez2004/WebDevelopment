@@ -1,26 +1,12 @@
-.skills{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 10px;
-    row-gap: 10px;
-    
-    /* justify-content: space-around;
-    align-items: center; */
+*{
+    padding: 0
+    margin: 0
 }
 
-.skill-image{
-    height: 300px;
-    width: 300px;
+.nav-list{
+    display: inline-block;
 }
 
-.skills-container{
-    /* display: inline-block; */
-    width: 300px;
-}
-
-#skills{
-    /* padding:40px; */
-    display: flex;
-    justify-content: center;
+.nav-link{
+    text-decoration: none;
 }

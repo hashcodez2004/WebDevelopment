@@ -1,142 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Harsh's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <nav>
+    <img src="img/logo.png" alt="" />
+    <ul type="none">
+      <li class="nav-list"><a class="nav-link" href="#intro">INTRO</a></li>
+      <li class="nav-list"><a class="nav-link" href="#about">ABOUT</a></li>
+      <li class="nav-list"><a class="nav-link" href="#skills">SKILLS</a></li>
+      <li class="nav-list"><a class="nav-link" href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
 
-  <body>
-    <header>
-      <div class="logo">
-        <img src="img/logo.png" alt="" />
-      </div>
-      <button class="nav-toggle" aria-label="toggle navigation">
-        <span class=""></span>
-      </button>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#home" class="nav__link">HOME</a></li>
-          <li class="nav__item">
-            <a href="#services" class="nav__link">WHAT I DO</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">ABOUT</a>
-          </li>
-          <li class="nav__item"><a href="#" class="nav__link">SKILLS</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">CONTACT</a></li>
-        </ul>
-      </nav>
-    </header>
+  <!--intro-->
+  <section>
+    <div>
+      <div>Hi, I am <strong>Harsh Kumar Sharma</strong></div>
+      <div>FRONT-END DEV</div>
+    </div>
+    <img src="img/passport.jpg" alt="Harsh Is Smiling!!" />
+  </section>
 
-    <!--INTRODUCTION(Home Section)-->
-    <section class="intro" id="home">
-      <h1>Hi, I am <strong>Harsh Kumar Sharma</strong></h1>
-      <p>Web Dev</p>
-      <img src="img/passport.jpg" alt="Harsh is smiling" />
-    </section>
 
-    <!--My Services-->
-    <section class="my-services" id="services">
-      <h2>What I do</h2>
-      <div class="services">
-        <div class="service">
-          <h3>Competitive Programming</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-            perferendis quaerat necessitatibus? Nobis cum laborum autem sed
-            cupiditate accusantium veniam.
-          </p>
-        </div>
+  <!--skills-->
+  <section>
+    <h1>My Skillset</h1>
+    <div>
+        <img class="img"  src="" alt="">
+        <img class="img"  src="" alt="">
+        <img class="img"  src="" alt="">
+        <img class="img"  src="" alt="">
+    </div>
+  </section>
 
-        <div class="service">
-          <h3>Development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-            obcaecati voluptates aperiam voluptate provident aliquid at cum!
-            Omnis, quam reiciendis.
-          </p>
-        </div>
+  <!--about-->
+  <section>
+    <h1>Who I am</h1>
+    <img src="" alt="">
+    <p>My name is Anubhav Sharma. I'm an Btech student at AKGEC Information Texhnology Department. I was born and raised in Meerut.</p>
+    <p>I love to do <strong>Seva</strong> and <strong>Sadhana</strong>.
+    I believe <strong>Meditation</strong> can cure the whole world</p>
+  </section>
 
-        <div class="service">
-          <h3>Designing</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-            id est, perspiciatis voluptas aperiam quibusdam a hic assumenda
-            eaque deserunt.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!--ABOUT ME-->
-    <section class="about-me" id="about">
-      <h2 class="section__title section__title-about">Who I am</h2>
-      <p class="section__subtitle section__subtitle-about">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, natus?</p>
-
-      <div class="about-me__body">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam corporis optio at repellat voluptate reiciendis eligendi minima atque vitae reprehenderit sequi quo asperiores tempore ut, id, ducimus velit quos esse?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus amet ipsam in debitis eos fugiat delectus exercitationem commodi illo assumenda magni quae, ad unde quam nobis, eum recusandae eius consequuntur.</p>
-      </div>
-      <img src="img/passport.jpg" alt="Happy Harsh" />
-    </section>
-
-    <!--my skills-->
-    <section class="my-skills" id="skill">
-      <h2 class="section__title">My Skills</h2>
-      <p class="section__subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-      <div class="portfolio">
-        <!--portfolio item 1-->
-        <a href="#" class="portfolio__item">
-          <img src="img/passport.jpg" alt="" class="portfolio__img" />
-        </a>
-
-        <!--portfolio item 2-->
-        <a href="#" class="portfolio__item">
-          <img src="img/passport.jpg" alt="" class="portfolio__img" />
-        </a>
-
-        <!--portfolio item 3-->
-        <a href="#" class="portfolio__item">
-          <img src="img/passport.jpg" alt="" class="portfolio__img" />
-        </a>
-
-        <!--portfolio item 4-->
-        <a href="#" class="portfolio__item">
-          <img src="img/passport.jpg" alt="" class="portfolio__img" />
-        </a>
-      </div>
-    </section>
-
-    <!--FOOTER-->
+    <!-- Footer -->
     <footer>
         <a href="mailto:kumarsharmaharsh2004@gmail.com" class="footer__link">hello@harsh.dev</a>
         <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/">a</a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/">b</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://facebook.com">a</a></li>
+            <li class="social-list__item">b<a class="social-list__link" href="http://instagram.com"></a></li>
             <li class="social-list__item"><a class="social-list__link" href="https://twitter.com">c</a></li>
             <li class="social-list__item"><a class="social-list__link" href="https://github.com">d</a></li>
         </ul>
     </footer>
-
-    <!-- SKILLS(skills section)
-    <section id="skills">
-      <div class="skills">
-        <div class="skills-container">
-          <img src="img/passport.jpg" alt="HTML" class="skill-image">
-        </div>
-        <div class="skills-container">
-          <img src="img/passport.jpg" alt="HTML" class="skill-image">
-        </div>
-        <div class="skills-container">
-          <img src="img/passport.jpg" alt="HTML" class="skill-image">
-        </div>
-        <div class="skills-container">
-          <img src="img/passport.jpg" alt="HTML" class="skill-image">
-        </div>
-      </div>
-    </section> -->
-  </body>
+  </footer>
+  <body></body>
 </html>
