@@ -71,10 +71,14 @@ nav{
 
 #about{
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
 .about{
-    width:50%;
-    align-items: center;
+    height: 5rem;
+    width: 5rem;
+    
     border-radius: 20%;
 }
 .footer__link{
